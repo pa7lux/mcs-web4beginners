@@ -1,0 +1,84 @@
+@import url(reset.css);
+ body {
+   background-color: black;
+ }
+ h1, h2 {
+   font-weight: bold;
+ }
+ a {
+   color: white;
+   text-decoration: none;
+ }
+.page {
+  min-width: 1424px;
+  max-width: 1920px;
+  margin: auto;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.myHeader {
+  min-height: 65px;
+}
+.myHeader h1 {
+  font-size: 24px;
+  line-height: 65px;
+}
+.columns {
+  font-size: 0;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+.column.logo {
+  width: 5%;
+}
+
+.column.logo img {
+  margin: 10px;
+}
+.column.heading {
+  width: 70%;
+}
+.column.menu {
+  width: 25%;
+  min-width: 325px;
+}
+.column.menu p {
+  line-height: 65px;
+  margin-left: 30px;
+}
+
+.bigPic {
+  height: 552px;
+  background-image: url(../img/bigpic.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contentBlock {
+  width: 60%;
+  margin: 50px auto;
+}
+.contentItem {
+  margin-bottom: 30px;
+}
+
+.contentItem h2 {
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.column.copy {
+  width: 90%;
+}
+
+.column.copy p {
+  margin-left: 20px;
+}
+.column.social {
+  width: 10%;
+}
