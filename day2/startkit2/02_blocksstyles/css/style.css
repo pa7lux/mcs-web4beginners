@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+.first {
+  height: 500px;
+  width: 400px;
+  background-color: green;
+}
+.second {
+  max-width: 1000px;
+  height: 200px;
+  background-color: red;
+}
+.third {
+  min-width: 1000px;
+  height: 200px;
+  background-color: yellow;
+}
+.fourth {
+  background-image: url(../img/pattern.jpg);
+  height: 300px;
+  /*background-repeat: repeat-y;
+  repeat-x, no-repeat */
+  background-size: 50px;
+}
+.fifth {
+  background-image: url(../img/cover.jpg);
+  width: 800px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  /*можно в пикселях сдвигать по x и y, можно использовать спец слова top, center, left, right, bottom*/
+}
+.sixth {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/superman.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.seventh {
+  height: 400px;
+  background-image: linear-gradient(to top right,red 0%, blue 20%, green 50%, navy 75%, yellow 100%);
+}
+.eighth {
+  height: 400px;
+  background-image: radial-gradient(red 10%, blue 20%, yellow 50%, black 100%);
+}
+.ninth {
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
+  /*dashed, dotted*/
+  border-radius: 50%;
+}
+.tenth {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: radial-gradient(red 10%, blue 20%, yellow 50%, black 100%);
+  border: 5px solid red;
+  border-image: url(../img/pattern.jpg) 30 round round;
+}
