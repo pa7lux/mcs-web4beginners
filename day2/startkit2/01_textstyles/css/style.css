@@ -1,0 +1,58 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@font-face {
+  src: url(../font/Boomboom.ttf);
+  font-family: "boom_boom";
+  font-weight: bold;
+}
+@font-face {
+  src: url(../font/futuralight.ttf);
+  font-family: "Futura";
+  font-weight: lighter;
+}
+@font-face {
+  src: url(../font/futuramedium.ttf);
+  font-family: "Futura";
+  font-weight: bold;
+}
+.boomboom {
+  font-family: 'boom_boom';
+  font-size: 30px;
+}
+.Raymond {
+  color: navy;
+  text-decoration: underline;
+  text-align: right;
+  line-height: 30px;
+  letter-spacing: 2px;
+  /*text-shadow: 0px 0px 5px red;*/
+}
+.Raymond span {
+  text-transform: uppercase;
+  /*lowercase*/
+}
+.Stroustrup {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /*lighter, regular, bold*/
+  font-size: 24px;
+}
+.Stroustrup span {
+  font-style: italic;
+}
+
+.Perlis {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.Gale {
+  font-family: 'Poiret One', cursive;
+}
+
+.Berra {
+  font-family:Futura;
+  font-weight: lighter;
+}
+.Berra span {
+  font-weight: bold;
+}
