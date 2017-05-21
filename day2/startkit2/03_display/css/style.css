@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+span {
+  display: block;
+  /*inline, block, inline-block*/
+}
+
+.columns {
+  border: 1px solid grey;
+  font-size: 0;
+  background-image: url(https://pbs.twimg.com/profile_images/765263431318511617/HfUmI60s.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.column {
+  width: 33.3333333333%;
+  height: 300px;
+  background-color: navy;
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  vertical-align: top;
+  opacity: .5;
+}

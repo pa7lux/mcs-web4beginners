@@ -1,0 +1,29 @@
+@import url(reset.css);
+
+.outer {
+  width: 700px;
+  height: 600px;
+  background-color: blue;
+  border: 5px solid black;
+  box-sizing: border-box;
+  margin: 100px auto;
+}
+
+.inner {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /*margin-top: 50px;
+  margin-left: 50px;*/
+  /*-bottom, -right*/
+  /*margin:50px 60px 70px 100px;*/
+  /*top, right, bottom, left*/
+  /*margin: 50px 60px 70px;*/
+  /*top right bottom left=right*/
+  /*margin: 50px 100px;*/
+  /*top=bottom, left=right*/
+  margin: 100px;
+  /*все по 100*/
+  box-sizing: border-box;
+  padding: 20px 30px 40px;
+}
