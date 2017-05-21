@@ -1,0 +1,14 @@
+@import url(reset.css);
+.linksBlock {
+  height: 500px;
+  background: navy;
+}
+.linksBlock.interactive {
+  background: #3caa3c;
+}
+.linksBlock.books {
+  background: rgb(12,255,110);
+}
+.linksBlock.onlineCourses {
+  background: rgba(0,0,0,.2);
+}

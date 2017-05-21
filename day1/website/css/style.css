@@ -1,0 +1,27 @@
+/* подключаю reset через import */
+@import url(reset.css);
+
+h2, a {
+  color: green;
+}
+header nav a {
+  color: red;
+}
+section div {
+  height: 500px;
+}
+.day {
+  background: blue;
+}
+.day.two {
+  background: red;
+}
+.day.two h2 {
+  color: violet;
+}
+.day.three .header--day3 {
+  color: grey;
+}
+#day3 {
+  background: white;
+}
