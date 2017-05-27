@@ -1,0 +1,148 @@
+@import url(reset.css);
+.page {
+  min-height: 100vh;
+  background-image: url(../img/bg.gif);
+}
+
+section {
+  height: 800px;
+  position: relative;
+}
+
+.sun {
+  width: 800px;
+  height: 800px;
+  background-image: url(../img/sun.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -200px;
+  right: 200px;
+}
+.mercury {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/mercury.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+
+}
+.venus {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/venus.png);
+  background-size: cover;
+  background-position: center;
+  margin: 50px auto;
+}
+.earth {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/earth.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.mars {
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/mars.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+}
+.jupiter {
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/jupiter.png);
+  background-size: cover;
+  background-position: center;
+  position: inherit;
+  top: 100px;
+  left: 300px;
+}
+.saturn {
+  width: 800px;
+  height: 300px;
+  background-image: url(../img/saturn.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 300px;
+  top: 10px;
+}
+.uranus {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/uranus.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+
+.neptune {
+  width: 500px;
+  height: 500px;
+  background-image: url(../img/neptune.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top:0;
+  right: 200px;
+}
+
+.pluto {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/pluto.png);
+  background-size: cover;
+  background-position: center;
+  margin: 300px auto;
+}
+
+.superman {
+  position: fixed;
+  width: 800px;
+  height: 500px;
+  top: 100px;
+  right: 400px;
+}
+
+.superPic {
+  height: 600px;
+  width: 600px;
+  background-image: url(../img/superman.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.comment {
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/comment.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.comment h1 {
+  margin-top: 42px;
+  margin-left: 27px;
+  text-align: center;
+  width: 150px;
+}

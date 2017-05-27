@@ -1,0 +1,71 @@
+@import url(reset.css);
+.myHeader {
+  min-height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.flex-container1 {
+  background-color: navy;
+  height: 400px;
+  display: flex;
+}
+
+.flex-item1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: auto;
+}
+.flex-container2 {
+  box-sizing: border-box;
+  border: 5px solid darkgrey;
+  min-height: 600px;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 300px;
+  box-sizing: border-box;
+  border: 5px solid blue;
+}
+.one {
+  order: 2;
+  /*align-self: center;*/
+}
+
+.two {
+  order: 3;
+}
+.three {
+  order: 1;
+}
+
+.myFooter {
+  min-height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.footer-column {
+  width: 30%;
+  border: 1px solid white;
+}
