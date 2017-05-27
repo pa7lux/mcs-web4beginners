@@ -2,6 +2,8 @@
 .page {
   min-height: 100vh;
   background-image: url(../img/bg.gif);
+  overflow: scroll;
+  /*hidden -спрячет то, что не влезло*/
 }
 
 section {
@@ -77,8 +79,9 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  right: 300px;
+  left: 1500px;
   top: 10px;
+  z-index: 2;
 }
 .uranus {
   width: 200px;
@@ -117,6 +120,7 @@ section {
   height: 500px;
   top: 100px;
   right: 400px;
+  z-index: 1;
 }
 
 .superPic {

@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+.rotate {
+  height: 300px;
+  width: 300px;
+  background-image: url(../img/putin.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 50%;
+  transition: all 1s linear;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+  background-image: url(../img/dimon.jpg);
+}
+.rotate:active {
+  background-image: url(../img/ktulkhu.jpg);
+}
+
+.scale {
+  height: 300px;
+  width: 300px;
+  background-image: url(../img/elephant.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 1s linear;
+  margin: auto;
+}
+
+.scale:hover {
+  transform: scale(1.5);
+}
+
+.translate {
+  height: 300px;
+  width: 300px;
+  background-image: url(../img/jdun.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 1s linear;
+  margin: auto;
+}
+
+.translate:hover {
+  transform: translate(10px,-20px);
+}
+
+.skew {
+  height: 300px;
+  width: 300px;
+  background-image: url(../img/domino.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  transition: all 1s linear;
+  margin: auto;
+}
+
+.skew:active {
+  transform: skewY(45deg);
+}
