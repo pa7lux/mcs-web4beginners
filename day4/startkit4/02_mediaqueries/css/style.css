@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+.mq {
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, red, blue);
+}
+
+@media screen and (max-width: 1024px) {
+  .mq {
+    background-image: linear-gradient(to bottom, yellow, purple);
+  }
+}
+@media screen and (max-width: 768px) {
+  .mq {
+    width: 100%;
+    background-image: linear-gradient(to bottom, grey, orange);
+  }
+}
+@media screen and (max-width: 568px) {
+  .mq {
+    width: 100%;
+    background-image: linear-gradient(to bottom, green, red);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .mq {
+    width: 100%;
+    background-image: linear-gradient(to top, green, red);
+  }
+}

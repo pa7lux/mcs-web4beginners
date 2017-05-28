@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+    <h1>Свяжитесь с нами:</h1>
+    <form class="myform">
+      <fieldset class="personalInfo">
+        <label for="yourName">Ваше имя</label>
+        <input type="text" name='yourName' value='Иван Иванов'>
+        <label for="yourEmail">Ваш email</label>
+        <input type="email" name='yourEmail' value='yo@example.com'>
+        <label for="yourTel">Ваш номер телефона</label>
+        <input type="tel" name='yourTel' value='+71111111'>
+        <!-- type ='password'-->
+      </fieldset>
+      <fieldset class="questType">
+        <label for="mySelect">Тип запроса</label>
+        <select name="mySelect">
+          <option value="otziv">Отзыв</option>
+          <option value="zhaloba">Жалоба</option>
+          <option value="recommendation">Рекомендация</option>
+        </select>
+        <label>Вы уверены?</label>
+        <input type="radio" name='yesno' value='yes' checked="true">
+        <label for="yesno">Да</label>
+        <input type="radio" name='yesno' value='no'>
+        <label for="yesno">Нет</label>
+      </fieldset>
+      <fieldset class="message">
+        <label for="yourMessage">Ваше сообщение</label>
+        <textarea name="yourMessage">Ваше сообщение</textarea>
+        <input type="checkbox" name='agree' value='agree' checked="true">
+        <label for="agree">Согласен на все</label>
+        <input type="submit" value='Отправить'>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>

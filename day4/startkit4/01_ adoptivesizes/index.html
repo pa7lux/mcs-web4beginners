@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Resposive</title>
+  <style>
+    html {
+      font-size: 18px;
+    }
+    .percents .outer {
+      height: 500px;
+      width: 1000px;
+      background-color: lightblue;
+    }
+    .percents .outer .inner {
+      height: 80%;
+      width: 60%;
+      background-color: orange;
+    }
+
+    .emrem .inner {
+      font-size: 30px;
+    }
+    .emrem .inner .em {
+      font-size: 1.5em;
+    }
+    .emrem .inner .rem {
+      font-size: 1.7rem;
+    }
+    .vmin {
+      background-color: black;
+      width: 30vmin;
+      height: 50vmax;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Адаптивные принципы</h1>
+    <section class="percents">
+      <h2>Проценты вместо пикселей</h2>
+      <div class="outer">
+        <div class="inner">
+        </div>
+      </div>
+    </section>
+    <section class='emrem'>
+      <h2>Адаптивные размеры шрифта</h2>
+      <div class="outer">
+        <div class="inner">
+          <p class="em">Привет я размера в em</p>
+          <p class="rem">Привет я размера в rem</p>
+        </div>
+      </div>
+    </section>
+    <section class='vhvw'>
+      <h2>Использование размеров относительно viewport</h2>
+      <div class="vmin"></div>
+      <!-- vh - для относительных размеров по высоте, vw - для относительных размеров по ширине-->
+    </section>
+  </div>
+</body>
+</html>

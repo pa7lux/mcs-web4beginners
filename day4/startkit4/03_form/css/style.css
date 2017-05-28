@@ -1,0 +1,88 @@
+@import url(reset.css);
+.page {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+form {
+  width: 80%;
+  margin: auto;
+}
+input, textarea, label, select {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+input, select {
+  height: 30px;
+  border: 2px solid black;
+  font-size: 14px;
+  line-height: 30px;
+  color: grey;
+}
+textarea {
+  height: 100px;
+  border: 2px solid black;
+  font-size: 14px;
+  color: grey;
+}
+label {
+  font-size: 24px;
+  line-height: 40px;
+}
+input[type='radio'], label[for='yesno'] {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+input[type='radio']:last-of-type {
+  margin-left: 50px;
+}
+input[type='checkbox'], label[for='agree'] {
+  display: inline-block;
+  vertical-align: middle;
+}
+input[type='checkbox'] {
+  width: 20px;
+}
+label[for='agree'] {
+  width: 30%;
+  margin-left: 5px;
+}
+input[type='submit'] {
+  height: 50px;
+  cursor: pointer;
+  background-color: black;
+  color:white;
+  text-transform: uppercase;
+  border: 5px solid black;
+  font-weight: bold;
+  transition: background-color .5s;
+}
+input[type='submit']:hover {
+  background-color: white;
+  color: black;
+}
+
+@media all and (min-width:1024px) {
+  .personalInfo, .questType {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+  .questType {
+    margin-left: 1%;
+  }
+  textarea {
+    height: 300px;
+  }
+  input[type='submit'] {
+    width: 300px;
+  }
+}
