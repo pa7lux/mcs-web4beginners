@@ -1,0 +1,30 @@
+@import url(reset.css);
+
+@keyframes myMove {
+  from {top: 0; left: 0; opacity: .5;}
+  to {top: 600px; left: 1000px; opacity: 1;}
+}
+@keyframes percentMove {
+  0% {top: 0; left: 0;}
+  25% {top: 100px; left: 500px;}
+  50% {top: 500px; left: 10px;}
+  75% {top: 20px; left: 500px;}
+  100% {top: 300px; left:300px;}
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.move {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: 5s percentMove 2s ease-in alternate infinite;
+}
