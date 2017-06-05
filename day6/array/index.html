@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Array</title>
+</head>
+<body>
+  <div class='my'></div>
+  <script>
+    //var names = ['Вася', 'Петя', 'Митя', 'Геннадий', 'Володя'];
+    //for(a of names){
+    //  document.write('Привет '+a+'!');
+      //document.body.querySelector('.my').innerHTML = '<h2>Привет '+a+'!</h2>';
+    //}
+    //var group1 = ['Петя', "Вася", "Коля"];
+    //var group2 = ['Митя', 'Валера', "Геннадий"];
+    //var group3 = ['Кирилл', 'Саня', "Поликарп"];
+    var gamers = [
+                  ['Петя', "Вася", "Коля"],
+                  ['Митя', 'Валера', "Геннадий"],
+                  ['Кирилл', 'Саня', "Поликарп"]
+                ];
+    for(team in gamers){
+      console.log('Привет! Команда '+(parseInt(team)+1));
+      for(player of gamers[team]) {
+        console.log('Здорово, '+player);
+      }
+    }
+  </script>
+</body>
+</html>

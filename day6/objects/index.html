@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Objects</title>
+</head>
+<body>
+  <script>
+    var ourClass = [
+      {
+        name: 'Саша',
+        role: 'teacher',
+        age: 29,
+        knowsHTMLCSS: true
+      }, //0
+      {
+        name: 'Никита',
+        role: 'student',
+        age: 27,
+        knowsHTMLCSS: true
+      }, //1
+      {
+        name: 'Илья',
+        role: 'student',
+        age: 28,
+        knowsHTMLCSS: true
+      }, //2
+      {
+        name: "Слава",
+        role: "student",
+        age: 32,
+        knowsHTMLCSS: true
+      } //3
+    ];
+    for(person in ourClass){
+      if(ourClass[person].role=='student'){
+        console.log('Поздравляю с окончанием курса '+ourClass[person].name+'!');
+      } else {
+        console.log('Учи еще!');
+      }
+    }
+
+  </script>
+</body>
+</html>

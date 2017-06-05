@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JQuery test</title>
+  <style>
+    .square {
+      width: 500px;
+      height: 500px;
+      background-color: red;
+    }
+    a {
+      display: block;
+      width: 250px;
+      height: 50px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+      background-color: navy;
+    }
+  </style>
+</head>
+<body>
+  <div class="square"></div>
+  <a href="#">Поменять</a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('a').on('click', function(){
+        //$('.square').hide();
+        //$('.square').toggle();
+        var blockDisplayStyle = $('.square').css('display');
+        if(blockDisplayStyle=='none'){
+          $('.square').fadeIn('slow').css({'background-color':'blue', 'width':'1000px'});
+        } else {
+          $('.square').fadeOut('slow');
+        }
+      });
+    });
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>First</title>
+</head>
+<body>
+  <script>
+    //Написать функцию, которая спросит в диалоговом окне "Введите строку", а потом выведет в консоль все нечетные буквы этой строки
+    var hw1 = function(somestring){
+      for(i in somestring){
+        if(i%2==0){
+          console.log(somestring[i]);
+        }
+      }
+    }
+    var mYString = prompt('Введите строку:');
+    hw1(mYString);
+  </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-var myString = 'Hola amigos!';
+var myString = prompt('Enter String:');
 //for(i=0;i<myString.length;i++){
 //  console.log('letter: '+myString[i]);
 //};

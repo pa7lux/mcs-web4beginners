@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>hw2</title>
+</head>
+<body>
+  <script>
+    //Написать функцию, которая примет 2 аргумента в виде чисел и возведет одно число в степень другого числа. Если в input введено не число, то писать в консоль "Функция работает только с числами"
+    var hw3 = function(number1,number2){
+      if(typeof(number1)=='number'&&typeof(number2)=='number'){
+        return number1**number2;
+      }else {
+        return 'Функция работает только с числами';
+      }
+    }
+    console.log(hw3(3,3)); //27
+    console.log(hw3('str', 9)); // 'Функция работает только с числами'
+  </script>
+</body>
+</html>
